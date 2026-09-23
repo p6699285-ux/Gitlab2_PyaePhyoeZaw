@@ -7,7 +7,7 @@ int main(int argc, char **argv)
     printf("Enter your name: ");
     scanf("%49s", name);
 
-    printf("Hello, %s!\n", name);
+    printf("Hello, PyaePhyoeZaw!\n");
 
     return 0;
 }
