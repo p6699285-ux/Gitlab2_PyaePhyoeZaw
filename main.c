@@ -1,6 +1,13 @@
 #include <stdio.h>
+
 int main(int argc, char **argv)
- {
-	print("Hello world!\n");
- 	return 0;
- }
+{
+    char name[50];
+
+    printf("Enter your name: ");
+    scanf("%49s", name);
+
+    printf("Hello, %s!\n", name);
+
+    return 0;
+}
