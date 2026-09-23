@@ -1,13 +1,14 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(int argc, char **argv)
 {
-    char name[50];
+    char name[255];
 
     printf("Enter your name: ");
-    scanf("%49s", name);
-
-    printf("Hello, PyaePhyoeZaw!\n");
+    fgets(name, 255, stdin);
+    name[strlen(name)-1] = '\0';
+    printf("Hello from PyaePhyoeZaw branch!\n");
 
     return 0;
 }
