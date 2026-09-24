@@ -9,7 +9,7 @@ int main(int argc, char **argv)
  
     scanf("%49s", name);
 
-    printf("Hello from master branch!\n");
+    printf("Hello from main branch!\n");
 
    
 
